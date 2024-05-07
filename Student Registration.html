@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="registration.css">
+    </head>
+    <body>
+      <div class="container">
+       <header>
+        <h1>Registration Form</h1>
+       </header>
+       <main>
+       <form action="" method="post" enctype="multipart/form-data">
+         <label for="name">Name:</label>
+         <input type="text"name="First name" id="First name"  required>
+         <input type="text"name="Last name"  id="Last name"  required>
+         <br>
+         <br>
+         <br>
+         <label for="Date of birth">Date of Birth:</label>
+         <input type="date" name="D.O.B" id="D.O.B" required>
+         <br>
+         <br>
+         <br>
+         <input type="radio" id="gender" name="gender" value="Male">
+         <label for="Male">Male</label>
+         <input type="radio" id="gender" name="gender" value="Female">
+         <label for="Female">Female</label>
+         <br>
+         <br>
+         <br>
+         <label for="Address">Address:</label>
+         <input type="text" name="Address" id="Address">
+         <br>
+         <br>
+         <br>
+         <label for="Telephone">Telephone:</label>
+         <input type="number" name="Telephone" id="Telephone">
+         <br>
+         <br>
+         <br>
+         <label for="email">Email:</label>
+         <input type="email" name="email" id="email" placeholder="allan@gmail.com" required>
+         <br>
+         <br>
+         <br>
+         <label for="course">Select Course:</label>
+         <select name="course" id="course">
+            <option value=""></option>
+            <option value="ICT">ICT</option>
+            <option value="Bussiness Commerce">Bussiness Commerce</option>
+            <option value="Software Eng">Software Eng</option>
+            <option value="Aeronutical Eng">Aeronutical Eng</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Mechanical Eng">Mechanical Eng</option>
+            <option value="Journalism">Journalism</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Procument">Procument</option>
+            <option value="Electrical Eng">Electrical Eng</option>
+         </select>
+         <br>
+         <br>
+         <br>
+         <label for="password">Password</label>
+         <input type="password" id="password" name="password">
+         <br>
+         <br>
+         <br>
+         <input type="submit" value="Register">
+         <input type="submit" value="Cancel">
+       </form>
+       </main>
+    </div>
+    </body>
+    <footer>
+      <p>&#169;
+        2024 Ivan Solika. All rights reserved.
+      </p>
+    </footer>
+  </html>
